@@ -4,7 +4,6 @@
 
 基于 [iztro](https://github.com/SylarLong/iztro) 实现的 Angular 组件，用于生成一张紫微斗数星盘。
 
-react component of [iztro](https://github.com/SylarLong/iztro) used to generate an astrolabe of Zi Wei Dou Shu.
 
 </div>
 
@@ -54,47 +53,17 @@ react component of [iztro](https://github.com/SylarLong/iztro) used to generate 
 
   零配置快速集成到你的页面中，对于集成几乎没有学习成本。你可以根据自己的页面风格自行调整样式，或控制各个元素的显示与隐藏（通过覆盖默认样式）。
 
-集成到页面中的界面如下图所示。你也可以直接访问官方的 [紫微派 - 紫微斗数在线排盘](https://ziwei.pub/astrolabe) 查看效果。
+集成到页面中的界面如下图所示。你也可以直接访问官方的 [紫微斗数在线排盘] https://bigrixin.github.io/angular-iztro/) 查看效果。
 
-<img width="928" alt="angular-iztro" src="https://github.com/SylarLong/react-iztro/assets/6510425/2817bb0c-89b5-4f33-ac5c-75481ad33209">
+<img width="928" alt="angular-iztro" src="https://github.com/bigrixin/angular-iztro/blob/main/Screenshot.png">
 
 如果你觉得该组件对你有用，希望给个⭐️⭐️鼓励一下。
 
 ## 安装
-
-```sh
-npm install react-iztro -S
-```
-
-当然你也可以使用 yarn
-
-```sh
-yarn add react-iztro
-```
-
+ 
 ## 使用
 
-```ts
-import {Iztrolabe} from "react-iztro"
-
-function App() {
-  return (
-    <div className="App" style={{ width: 1024, margin: '50px auto', boxShadow: '0 0 25px rgba(0,0,0,0.25)'}}>
-      <Iztrolabe 
-        birthday="2003-10-12" 
-        birthTime={1} 
-        birthdayType="solar" 
-        gender="male" 
-        horoscopeDate={new Date()} // 新增参数，设置运限日期【可选，默认为当前时间】
-        horoscopeHour={1}  // 新增参数，设置流时时辰的索引【可选，默认会获取 horoscopeDate 时间】
-      />
-    </div>
-  );
-}
-
-export default App;
-
-```
+ 
 
 ## 克隆到本地
 
@@ -103,7 +72,7 @@ export default App;
 1. 克隆代码
 
   ```
-  git clone https://github.com/SylarLong/react-iztro.git
+ 
   ```
 
 2. 安装依赖
@@ -120,19 +89,11 @@ export default App;
 
 3. 启动
 
-   ```
-   npm run storybook
-   ```
-
-   或者
-
-   ```
-   yarn storybook
-   ```
+ 
 
 4. 预览
 
-   打开浏览器，输入 http://localhost:6006 即可预览。
+   打开浏览器，输入 http://localhost:  即可预览。
 
 ## 贡献
 
