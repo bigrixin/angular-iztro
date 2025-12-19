@@ -56,7 +56,7 @@ react component of [iztro](https://github.com/SylarLong/iztro) used to generate 
 
 集成到页面中的界面如下图所示。你也可以直接访问官方的 [紫微派 - 紫微斗数在线排盘](https://ziwei.pub/astrolabe) 查看效果。
 
-<img width="928" alt="react-iztro" src="https://github.com/SylarLong/react-iztro/assets/6510425/2817bb0c-89b5-4f33-ac5c-75481ad33209">
+<img width="928" alt="react-iztro" src="[https://github.com/SylarLong/react-iztro/assets/6510425/2817bb0c-89b5-4f33-ac5c-75481ad33209]">
 
 如果你觉得该组件对你有用，希望给个⭐️⭐️鼓励一下。
 
